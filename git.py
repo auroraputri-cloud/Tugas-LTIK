@@ -1,0 +1,1 @@
+print("ini tugas Literasi Teknologi Informasi dan Komunikasi")
