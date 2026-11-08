@@ -1,0 +1,1 @@
+print("Halo ini saya Aurora sedang mengerjakan tugas Mata Kuliah Literasi Teknologi Informasi dan Komunikasi")
