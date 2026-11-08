@@ -1,0 +1,8 @@
+# Latihan 1
+# Aurora Putri Novrizcha - 2605749
+numbers = [10, 20, 20, 30, 40, 50, 50, 60]
+hapusDuplikasi = set(numbers)
+hasil = sorted(list(hapusDuplikasi))
+
+print(hasil)
+  

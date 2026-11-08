@@ -1,0 +1,39 @@
+# 1. Data Nilai Maksimum Mahasiswa
+nilai = [88, 75, 63, 97, 82, 74, 91, 80, 81, 63]
+
+# a. Nilai maksimum, minimum, dan rata-rata
+nilaiMaksimum = max(nilai)
+nilaiMinimum = min(nilai)
+nilaiRataRata = sum(nilai) / len(nilai)
+
+print("Aurora Putri Novrizcha -2605749")
+print("Nilai Maksimum : ", nilaiMaksimum)
+print("Nilai Minimum :", nilaiMinimum)
+print("Nilai Rata-Rata : ", nilaiRataRata)
+
+# b. Angka Terbesar Kedua
+nilai.remove(nilaiMaksimum)
+terbesarKedua = max(nilai)
+
+print("Angka Terbesar Kedua: ", terbesarKedua)
+
+# 2. Data Lokasi
+jakarta = (-6.2088, 106.8456)
+bandung = (-6.9175, 107.6191)
+surabaya = (-7.2575, 112.7521)
+
+lokasi = [jakarta, bandung, surabaya]
+
+# a. Tampilkan Koordinat Kota Bandung
+print("Aurora Putri Novrizcha -2605749")
+print("Koordinat Kota Bandung ; ", lokasi[1])
+
+# b. Jumlah Lokasi
+print("Jumlah Lokasi yang Tersimpan: ", len(lokasi))
+
+# 3. Menginput 10 Nama Teman
+nama = input("Masukkan 10 Nama Teman Anda (pisahkan dari koma): ")
+x = [n.strip() for n in nama.split(",")]
+
+print("Aurora Putri Novrizcha -2605749")
+print("Daftar Nama Teman: ", x)
